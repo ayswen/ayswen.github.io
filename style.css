@@ -1,0 +1,16 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}

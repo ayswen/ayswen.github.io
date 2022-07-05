@@ -1,0 +1,20 @@
+{
+    "size": 19,
+    "focus": [[9, 0],  [18, 4]],
+    "position": {
+        "black": [
+            [18, 2], [17, 2], [16, 2], [15, 2], [14, 2], [13, 2], [12, 1], [11, 1], [13, 0]
+        ],
+        "white": [
+            [18, 1], [17, 1], [16, 1], [15, 1], [14, 1], [13, 1], [12, 0]
+        ]
+    },
+    "tree": [
+        { "parent": null, "turn": "black" },
+        { "parent": 0, "intersection": [17, 0], "tag": "correct" },
+        { "parent": 1, "intersection": [16, 0] },
+        { "parent": 2, "intersection": [14, 0] },
+        { "parent": 1, "intersection": [14, 0] },
+        { "parent": 4, "intersection": [16, 0] }
+    ]
+}
