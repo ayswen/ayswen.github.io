@@ -1,6 +1,6 @@
 import { Position } from "./Position.js";
-import starPoints from '../clean/values/star_points.json'assert {type: 'json'};
-import iVal from '../clean/values/intersection.json'assert {type: 'json'};
+import starPoints from '../values/star_points.json'assert {type: 'json'};
+import iVal from '../values/intersection.json'assert {type: 'json'};
 
 export class Goban {
     constructor(size, container, position, gameTree, focus) {
