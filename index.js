@@ -1,7 +1,7 @@
 import problem from "./dummy_data/problem.json" assert {type: 'json'};
-import { Position } from "./Position.js";
-import { Goban } from "./Goban.js";
-import { GameTree } from "./GameTree.js";
+import { Position } from "./classes/Position.js";
+import { Goban } from "./classes/Goban.js";
+import { GameTree } from "./classes/GameTree.js";
 
 const container = document.querySelector('.container');
 const position = new Position(problem.size, problem.position);
